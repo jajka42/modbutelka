@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "modbutelka",
+  "version": "${version}",
+  "name": "ModButelka",
+  "description": "Wysyla /butelka na 31 poziomie.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.modbutelka.ModButelkaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
